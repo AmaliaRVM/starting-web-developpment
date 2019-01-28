@@ -1,4 +1,56 @@
 body {
-    background-color: gray;
+    background-color: #FFFFFF;
 }
+
+.container {
+    width: 40%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: solid black;
+    
+
+}
+
+.mainTim {
+    margin-top: 50px;
+    height: 500px;
+    border: solid black;
+    background-color: white;
+    text-align: center;
+  
+}
+
+.photoTim {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.roundTim {
+    border-radius: 50%;
+    width:200px; 
+    height:200px;
+    border: solid gray;
+    
+}
+
+.infoTim {
+    border: solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.netlogos {
+    margin-top: 50px;
+    height: 200px;
+    border: solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
