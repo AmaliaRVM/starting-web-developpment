@@ -6,75 +6,120 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>webpage</title>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700"/>
 </head>
 <body>
-    <img src="images/Tim.jpeg" alt="image of Tim" width="200" height="200">
-    <h1>
-        Tim Berners-Lee
-    </h1>
-    <h2>
-        Inventor of HTML
-    </h2>
-    <p>
-        Time Berners-Lee is the <b>inventor</b> of the Web. In 1989, Tim was working  
-        in a computing services section of CERN when he came up with the concept; at the time 
-        he had no idea that it would be implemented on such an <b>enormus scale.</b>  
-    </p>
-    <p>
-        <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">
-            See for yourself
-        </a>
-    </p>
-    <p>
-        <ul>
-            <li>
-                 <!-- Enter Facebook fab fa logo -->
-                <i class="fab fa-facebook-f"></i>
-                <p>
-                    <a href="https://www.facebook.com/tim.bernerslee.100" target="_blank">
-                        Facebook
-                    </a> 
-                </p>              
-            </li>
-                
-            <li>
-                <!-- Enter linkedin fab fa logo -->
-                <i class="fab fa-linkedin-in"></i>
-                <p>
-                    <a href="https://www.linkedin.com/pulse/sir-tim-berners-lee-andrew-maltzoff" target="_blank">
-                        LinkedIn
-                    </a> 
-                </p>
-            </li>
-            <li>
-                 <!-- Enter Facebook fab fa logo -->
-                <i class="fab fa-twitter"></i>
-                <p>
-                    <a href="https://twitter.com/timberners_lee?lang=es" target="_blank">
-                        Twitter
-                    </a>
-                </p>
-            </li>
-        </ul>
-    </p>
-    <h3>
-        His favorite movies
-    </h3>
-    <p>
-        <img src="images/Odyssey.jpeg" alt="Odyssey film poster"/>
-        Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and,
-        with the intelligent computer H.A.L. 9000, sets off on a quest.
-    </p>
-    <p>
-        <img src="images/Hulot.jpeg" alt="Hulot film poster"/>
-        Monsieur Hulot comes to a beachside hotel for a vacation,
-        where he accidentally (but good-naturedly) causes havoc.
-    </p>
-    <p>
-        <img src="images/Alien.jpeg"
-    </p>
+    <!--general container div -->
+    <div class="container">
 
-    
+        <div class="mainTim">
+            <div class="photoTim">
+                <img src="images/Tim.jpeg" alt="image of Tim" class="roundTim" width="200" height="200"/>
+            </div>
+            
+            <div class="infoTim">
+                    <h1>
+                        Tim Berners-Lee
+                    </h1>
+                    <h2>
+                        Inventor of HTML
+                    </h2>
+                    <p>
+                        Time Berners-Lee is the <b>inventor</b> of the Web. In 1989, Tim was working  
+                        in a computing services section of CERN when he came up with the concept; at the time 
+                        he had no idea that it would be implemented on such an <b>enormus scale.</b>  
+                    </p>
+                    <p>
+                        <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">
+                            See for yourself
+                        </a>
+                    </p>
+            </div>
+        </div>
+
+        <!-- Second section network logos -->
+        <div class="netlogos">
+                <p>
+                    <ul>
+                        <li>
+                            <!-- Enter Facebook fab fa logo -->
+                            <i class="fab fa-facebook-f"></i>
+                            <p>
+                                <a href="https://www.facebook.com/tim.bernerslee.100" target="_blank">
+                                    Facebook
+                                </a> 
+                            </p>              
+                        </li>
+                                
+                        <li>
+                            <!-- Enter linkedin fab fa logo -->
+                            <i class="fab fa-linkedin-in"></i>
+                            <p>
+                                <a href="https://www.linkedin.com/pulse/sir-tim-berners-lee-andrew-maltzoff" target="_blank">
+                                    LinkedIn
+                                </a> 
+                            </p>
+                        </li>
+                        <li>
+                            <!-- Enter Facebook fab fa logo -->
+                            <i class="fab fa-twitter"></i>
+                            <p>
+                                <a href="https://twitter.com/timberners_lee?lang=es" target="_blank">
+                                    Twitter
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+        </div>
+        
+        <!-- third section movies -->
+        <div class="movies">
+            <div class="headmovie">
+                <h3>
+                His favorite movies
+                </h3>
+            </div>
+
+            <div class="odyssey">
+                <div class="odysseyleft">
+                    <img src="images/Odyssey.jpeg" alt="Odyssey film poster"/>
+                </div>
+                <div class="odysseyright">
+                    <p>
+                        Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and,
+                        with the intelligent computer H.A.L. 9000, sets off on a quest.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hulot">
+                <div class="hulotleft">
+                    <img src="images/Hulot.jpeg" alt="Hulot film poster"/>
+                </div>
+                <div class="hulotright">
+                    <p>
+                        Monsieur Hulot comes to a beachside hotel for a vacation,
+                        where he accidentally (but good-naturedly) causes havoc.
+                    </p>
+                </div>
+            </div>
+
+            <div class="alien">
+                <div class="alienleft">
+                    <img src="images/Alien.jpeg" alt="Alien film poster"/>
+                </div>
+                <div class="alienright">
+                    <p>
+                        The commercial vesel Nostromo receives a distress call from an unexplored planet.
+                        After searching for survivors, the crew heads home only to realize that a deadly bioform
+                        has joined them.
+                    </p>    
+                </div>
+            </div>
+        </div>
+        
+    </div>    
 </body>
 </html>
