@@ -7,7 +7,7 @@ h1 {
 }
 
 .container {
-    width: 40%;
+    width: 780px;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -21,35 +21,32 @@ h3 {
 
 .mainTim {
     margin-top: 50px;
-    height: 550px;
+    height: 500px;
     background-color: white;
     text-align: center;
     color: #a29aa9;
     padding: 20px;
 }
 
-.photoTim {
-    display: flex;
-    justify-content: center;
-   
-}
+
 
 .roundTim {
-    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    width:200px; 
-    height:200px;
     border: solid #a29aa9;
     
 }
 
 .text {
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: justify;
 }
 
-.framelink {
-    padding:       10px 15px; 
-}
 
 .infolink {
     background:    #dd5555;
@@ -74,10 +71,6 @@ h3 {
     justify-content: space-around;
     
 }
-/* i {
-    color: #a29aa9;
-    text-align: center;
-} */
 
 .fab {
     font-size: 30px;
