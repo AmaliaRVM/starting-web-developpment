@@ -2,7 +2,7 @@
   
 ## About ##
 Last exercice of the html-css serie. The objective was to create a  
-webpage based in a Tim Berner webpage template in order to understand the HTML and CSS. In addition  
+webpage based in a Tim Berner webpage template in order to understand the HTML and CSS. In addition to this  
 I also start to work with Responsive Website Design.
 
 ## Timeline ##  
