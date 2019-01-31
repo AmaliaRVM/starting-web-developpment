@@ -2,6 +2,7 @@ body {
     background-color: #ebebeb;
 }
 
+
 h1 {
     color: #d55;
 }
@@ -20,8 +21,9 @@ h3 {
 }
 
 .mainTim {
+    width: auto;
     margin-top: 50px;
-    height: 500px;
+    height: auto;
     background-color: white;
     text-align: center;
     color: #a29aa9;
@@ -29,8 +31,7 @@ h3 {
 }
 
 
-
-.roundTim {
+.photoTim {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -41,11 +42,13 @@ h3 {
     
 }
 
+
 .text {
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
 }
+
 
 
 .infolink {
@@ -62,8 +65,9 @@ h3 {
 
 .netlogos {
     margin-top: 50px;
-    padding:10%;
-    height: 50px;
+    padding: 20px;
+    height: auto;
+    width: auto;
     text-align: center;
     background-color: white;
     color: #a29aa9;
@@ -71,6 +75,7 @@ h3 {
     justify-content: space-around;
     
 }
+
 
 .fab {
     font-size: 30px;
@@ -79,60 +84,85 @@ h3 {
 }
 
 .movies {
+    width: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 1200px;
     padding: 20px;
+    height: auto;
     background-color: white;
     color: #a29aa9;
     text-align: center;
-    
 }
 
-.odyssey {
+.film {
     display: flex;
     justify-content: space-around;
 }
 
-.odysseyleft {
+.filmleft {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
 }
 
-.odysseyright {
+.filmright {
     padding: 20px;
     text-align: justify;
+    width: auto;
+}
+
+
+/* Responsive Web Design */
+
+@media only screen and (max-width:780px) {
+    body {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .mainTim {
+        width: 100%;
+    }
     
+    .photoTim {
+        height: auto;
+        width: 40%;
+    }
+        
+    .netlogos {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
 
-}
+    .movies {
+        height: auto;
+        width: 100%;
+        display: block;  
+    }
 
-.hulot {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;  
-}
-
-.hulotleft {
-    padding: 20px;
-}
-
-.hulotright {
-    padding: 20px;
-    text-align: justify;
-}
-
-.alien {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around; 
-}
-
-.alienleft {
-    padding: 20px;
-}
-
-.alienright {
-    padding: 20px;
-    text-align: justify;
+    
+    .film {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    .filmleft {
+        height: auto;
+        width: 40%;
+        display: block;
+        padding: 0;
+        
+        
+    }
+    .filmright {
+        height: auto;
+        display: block;
+    }
 }
 
 
