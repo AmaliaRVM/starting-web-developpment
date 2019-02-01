@@ -126,6 +126,7 @@ h3 {
 
     .mainTim {
         width: 100%;
+        padding: 0;
     }
     
     .photoTim {
@@ -137,12 +138,14 @@ h3 {
         height: auto;
         width: 100%;
         display: block;
+        padding: 0;
     }
 
     .movies {
         height: auto;
         width: 100%;
-        display: block;  
+        display: block;
+        padding: 0;  
     }
 
     
