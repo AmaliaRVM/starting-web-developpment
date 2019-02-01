@@ -9,7 +9,7 @@ I also start to work with Responsive Website Design.
 
 *First Phase: Git*  
 * GitHub repository named "starting-web-developpment"  
-* Reppsitory clone  
+* Repository clone  
 
 *Second Phase: HTML*  
 * index.html file  
