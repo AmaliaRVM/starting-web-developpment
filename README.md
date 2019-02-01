@@ -17,5 +17,10 @@ I also start to work with Responsive Website Design.
 * images folder  
 
 ## Timeline ##  
-The developement of this exercice took place during the fourth week of the "La Prairie" BeCode training.
+The developement of this exercice took place during the fourth week of the "La Prairie" BeCode training.  
+
+## Work in progress ##  
+During the process I struggle mostly with Responsive Website Design (that I start once the webpage was done), so before working straight in to my webpage a took some time to learn the basics and follow some exercices. I also found some dificulties to establish the relationship between the main css and the @Media Queries.  
+
+
 
