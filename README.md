@@ -6,8 +6,13 @@ webpage based in a Tim Berner webpage template in order to understand the HTML a
 I also start to work with Responsive Website Design.  
 
 ## Tasks ##  
-*First Phase*
-
+*First Phase: Git*  
+* GitHub repository named "starting-web-developpment"  
+* Reppsitory clone  
+*Second Phase: HTML*  
+* index.html file  
+* style.css file  
+* images folder  
 
 ## Timeline ##  
 The developement of this exercice took place during the fourth week of the "La Prairie" BeCode training.
